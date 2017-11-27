@@ -1,5 +1,6 @@
 {
     "name": "John",
     "age": 25,
+    "email": "john@uco.edu",
     "phone": "405-974-2000"
 }
