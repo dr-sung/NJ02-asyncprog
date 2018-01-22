@@ -1,8 +1,8 @@
-var fs = require('fs');
+const fs = require('fs');
 
 fs.open('async_ex1.js', 'r', (err, handle) => {
-    var SIZE = 50;
-    var buf = new Buffer(SIZE);
+    let SIZE = 40;
+    let buf = new Buffer(SIZE);
     if (err) {
         console.log("cannot open: " + err.code + "("+err.message+")");
     } else {
